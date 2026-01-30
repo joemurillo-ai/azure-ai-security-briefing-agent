@@ -47,3 +47,10 @@ This repo will ship an MVP that generates `outputs/daily_briefing.md` from sampl
 python briefing_agent.py \
   --input ./sample_data \
   --out ./outputs/daily_briefing.md
+### Quickstart (MVP)
+This generates a sample briefing file.
+
+```bash
+python briefing_agent.py \
+  --input ./sample_data \
+  --out ./outputs/daily_briefing.md

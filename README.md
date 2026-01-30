@@ -42,5 +42,8 @@ Pull data directly via:
 This repo will ship an MVP that generates `outputs/daily_briefing.md` from sample exports.
 
 **Planned command:**
+
 ```bash
-python briefing_agent.py --input ./sample_data --out ./outputs/daily_briefing.md
+python briefing_agent.py \
+  --input ./sample_data \
+  --out ./outputs/daily_briefing.md

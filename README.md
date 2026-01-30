@@ -39,18 +39,11 @@ Pull data directly via:
 ---
 
 ## Quickstart (MVP, export-first)
-This repo will ship an MVP that generates `outputs/daily_briefing.md` from sample exports.
 
-**Planned command:**
-
-```bash
-python briefing_agent.py \
-  --input ./sample_data \
-  --out ./outputs/daily_briefing.md
-### Quickstart (MVP)
-This generates a sample briefing file.
+This generates a sample briefing Markdown file at `outputs/daily_briefing.md` using exported JSON/CSV placed in `sample_data/`.
 
 ```bash
 python briefing_agent.py \
   --input ./sample_data \
   --out ./outputs/daily_briefing.md
+

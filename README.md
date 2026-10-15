@@ -15,6 +15,18 @@ A single Markdown report you can paste into email/Teams:
 
 ---
 
+## Project maturity and verification
+
+**Current documented path:** export-first sample briefing generation from local JSON/CSV inputs. **Planned:** live Microsoft Sentinel, Defender, Log Analytics, and Entra integrations. The planned integrations are not presented as implemented or deployed.
+
+This project illustrates how security findings can be translated into an executive-friendly decision format. It is not a replacement for incident response, validated detection engineering, or independent investigation. Review generated findings against source logs before acting.
+
+**Data handling:** Use synthetic or explicitly authorized exports for demonstrations. Avoid committing tenant identifiers, secrets, personal information, security logs, or production incident data. Sanitize any sample report before publishing it.
+
+**Reproducibility:** The quickstart below is the documented workflow, not a claim that a live Azure tenant or its integrations were tested during this README update.
+
+---
+
 ## Inputs (planned)
 This project is designed to work in two modes:
 
